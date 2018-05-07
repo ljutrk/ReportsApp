@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1%;
+    .candidatesBtn {
+        float: right;
+    }
+    p {
+        font-size: 20px;
+        font-weight: bold;
+        display: inline-block;
+    }
+    button {
+        float: right;
+    }
+}
+
+.search {
+    padding: 1%;
+    input {
+        float: right;
+    }
+    button {
+        float: right;
+    }
+    p {
+        display: inline-block;
+    }
+}
+
+.candidatesWrapper {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    .candidateCard {
+        padding: 5%;
+        width: 100%;
+        .candidateCardInnerDiv {
+            height: 100%;
+            padding: 15% 5%;
+            -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+            .imgDiv {
+                padding-bottom: 15%;
+                margin: 0 auto;
+                width: 80%;
+                height: 80%;
+                img {
+                    width: 100%;
+                }
+            }
+            p {
+                text-align: center;
+                width: 100%;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            p:nth-child(4) {
+                font-size: 14px;
+            }
+        }
+    }
+}

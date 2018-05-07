@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  padding: 1%; }
+  header .candidatesBtn {
+    float: right; }
+  header p {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block; }
+  header button {
+    float: right; }
+
+.search {
+  padding: 1%; }
+  .search input {
+    float: right; }
+  .search button {
+    float: right; }
+  .search p {
+    display: inline-block; }
+
+.candidatesWrapper {
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%; }
+  .candidatesWrapper .candidateCard {
+    padding: 5%;
+    width: 100%; }
+    .candidatesWrapper .candidateCard .candidateCardInnerDiv {
+      height: 100%;
+      padding: 15% 5%;
+      -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75); }
+      .candidatesWrapper .candidateCard .candidateCardInnerDiv .imgDiv {
+        padding-bottom: 15%;
+        margin: 0 auto;
+        width: 80%;
+        height: 80%; }
+        .candidatesWrapper .candidateCard .candidateCardInnerDiv .imgDiv img {
+          width: 100%; }
+      .candidatesWrapper .candidateCard .candidateCardInnerDiv p {
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold; }
+      .candidatesWrapper .candidateCard .candidateCardInnerDiv p:nth-child(4) {
+        font-size: 14px; }
+
+/*# sourceMappingURL=main.css.map */
